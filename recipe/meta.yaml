@@ -16,8 +16,8 @@ build:
 requirements:
   host:
     - python {{ python_min }}
-    - poetry
     - pip
+    - hatchling
 
   run:
     - python >={{ python_min }}
